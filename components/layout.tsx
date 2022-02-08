@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 
 type Props = { children: React.ReactNode };
 
@@ -18,7 +17,7 @@ export default function Layout({ children }: Props): JSX.Element {
         <title>Kepsek Report</title>
       </Head>
 
-      <header className="flex items-center justify-around py-28">
+      <header className="flex items-center justify-around pt-[72px] mx-28">
         <span className="absolute top-0 right-0 hidden md:block">
           <Image
             src="/images/banner-jaringan-idn-white.svg"
@@ -29,10 +28,12 @@ export default function Layout({ children }: Props): JSX.Element {
         </span>
 
         {/* School Logo */}
-        <section className="flex items-center justify-between">
-          <Image src="/images/image-3.svg" width={100} height={100} alt="logo-school" />
-          <div className="text-[#F1FFF8] flex flex-col justify-center items-center">
-            <h1 className="text-3xl font-bold ">Laporan Kepala Sekolah</h1>
+        <section className="flex items-center justify-start space-x-4">
+          <div>
+            <Image src="/images/image-3.svg" width={100} height={100} alt="logo-school" />
+          </div>
+          <div className="text-[#F1FFF8] flex flex-col justify-center items-start">
+            <h1 className="text-3xl font-bold">Laporan Kepala Sekolah</h1>
             <h3 className="text-2xl">SMK Bakti Karya Parigi</h3>
           </div>
         </section>
@@ -54,7 +55,7 @@ export default function Layout({ children }: Props): JSX.Element {
       </header>
 
       {/* MAIN */}
-      <main className="container max-w-3xl mx-auto bg-sky-100">{children}</main>
+      <main className="container max-w-4xl mx-auto mt-6 bg-white">{children}</main>
 
       {/* FOOTER */}
       <footer className="absolute inset-x-0 bottom-0 font-primary mt-[38px] mb-[54px] max-w-3xl mx-auto container">
