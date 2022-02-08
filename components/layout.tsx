@@ -8,7 +8,7 @@ type Props = { children: React.ReactNode };
 export default function Layout({ children }: Props): JSX.Element {
   return (
     <div
-      className="relative container bg-[#F2F5F4] flex flex-col bg-[url('/images/background-bottomshape.svg')] md:bg-[url('/images/background-bottomshape-invert.svg')] bg-no-repeat min-h-screen md:mx-auto bg-contain"
+      className="relative container flex flex-col bg-[url('/images/background-bottomshape.svg')] md:bg-[url('/images/background-bottomshape-invert.svg')] bg-no-repeat min-h-screen mx-auto bg-contain"
     >
       <Head>
         <link rel="icon" href="/favicon.ico" />
@@ -25,7 +25,6 @@ export default function Layout({ children }: Props): JSX.Element {
             alt="Logo of Jaringan IDN"
             width={195}
             height={111}
-            loading="eager"
           />
         </span>
 
@@ -55,13 +54,13 @@ export default function Layout({ children }: Props): JSX.Element {
       </header>
 
       {/* MAIN */}
-      <main className="bg-sky-100 md:ml-[420px] md:mr-[208px]">{children}</main>
+      <main className="container max-w-3xl mx-auto bg-sky-100">{children}</main>
 
       {/* FOOTER */}
-      <footer className="absolute inset-x-0 bottom-0 font-primary mt-[38px] mb-[54px] md:ml-[420px] md:mr-[208px]">
+      <footer className="absolute inset-x-0 bottom-0 font-primary mt-[38px] mb-[54px] max-w-3xl mx-auto container">
         <p className="text-black">Terdapat pertanyaan atau kendala ?</p>
         <section className="flex items-center justify-between mt-2">
-          <button className="flex space-x-2 justify-center items-center bg-[#008169] rounded-full pl-3 pr-6 py-1 hover:opacity-90 transition-all duration-150 ease-in-out shadow-md">
+          <button className="flex space-x-2 justify-center items-center bg-[#008169] rounded-full pl-3 pr-6 py-1 hover:opacity-90 transition-all duration-150 ease-in-out shadow-md shrink-0">
             <Image src="/images/img_whatsapp.svg" width={23} height={23} alt="Contact logo" />
             <p className="text-xs font-bold text-white">Hubungi tim CS Kami</p>
           </button>

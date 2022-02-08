@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
@@ -14,20 +15,20 @@ const Home: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
       </Head>
 
-      <main className="container">
-        <div className='bg-emerald-200 mt-[100px] w-[247.06px] h-[100px]'>
-          kepsek report
+      <main className="container mx-auto">
+        <div className="ml-32 mt-28">
+          <Image src="/images/kepsek-report.svg" width={337.5} height={100} alt="kepsek-report" />
         </div>
-        <div className='mt-[34px] flex justify-center'>
-          <div className='bg-emerald-200 w-[659px] h-[456.08px]'>
-            IMAGE LOGIN PAGE
+        <div className="flex">
+          <div className="w-1/2">
+            <Image src="/images/login-kepsek-report.svg" width={659} height={456.08} alt="login kepsek report" />
           </div>
-          <div className='w-1/2 font-primary'>
-            <h1 className='w-4/6 font-extrabold text-[40px] text-meteorite'>Selamat bergabung ke dalam Jaringan Lembaga Pendidikan Digital!</h1>
-            <p className='w-4/6 mt-6 text-soft-gray'>Sebanyak 5630 kepala sekolah dan ketua Yayasan telah memulai perjalanan digitalisasi pendidikan mereka.</p>
-            <div className='mt-[60px]'>
-              <button className='bg-[#007DC4] shadow-lg shadow-[#007DC4]/4 hover:bg-opacity-90 transition-all duration-150 ease-in-out py-3 px-5 rounded-full'>
-                <h4 className='text-sm font-bold text-slate-50'>Login Sekarang</h4>
+          <div className="w-1/2 mt-6 font-primary">
+            <h1 className="w-5/6 font-extrabold text-[40px] text-meteorite leading-[50px]">Selamat bergabung ke dalam Jaringan Lembaga Pendidikan Digital!</h1>
+            <p className="w-5/6 mt-6 text-2xl text-soft-gray">Sebanyak 5630 kepala sekolah dan ketua Yayasan telah memulai perjalanan digitalisasi pendidikan mereka.</p>
+            <div className="mt-12">
+              <button className="bg-[#007DC4] shadow-lg shadow-[#007DC4]/40 hover:bg-opacity-90 transition-all duration-300 ease-in-out py-4 px-6 rounded-full">
+                <h4 className="text-xl font-bold text-slate-50">Login Sekarang</h4>
               </button>
             </div>
           </div>
