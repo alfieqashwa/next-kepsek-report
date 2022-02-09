@@ -54,11 +54,37 @@ export default function Layout({ children }: Props): JSX.Element {
 
       </header>
 
+      <section className="container relative max-w-3xl mx-auto mt-6 mr-64 bg-white shadow-xl drop-shadow-xl rounded-2xl">
+        <nav className="absolute left-0 flex flex-col inset-y-10">
+          <ul className="space-y-1">
+            <li className="w-60 -ml-60 p-4 rounded-l-2xl bg-white drop-shadow-2xl shadow-2xl text-[#008169]">
+              <a href="#">Home</a>
+            </li>
+            <li className="p-4 rounded-l-2xl shadow-inner bg-[#FAFAFA] text-[#A4A4A4] w-60 -ml-60">
+              <a href="#">Home</a>
+            </li>
+          </ul>
+        </nav>
+        <main className="px-10 py-14">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, odio dicta? Odio neque voluptates quisquam, iusto sed molestiae eligendi nobis at impedit incidunt repellat vero eius delectus doloribus, ex laudantium!
+        </main>
+      </section>
+
       {/* MAIN */}
-      <main className="container max-w-4xl mx-auto mt-6 bg-white">{children}</main>
+      {/* <main className="container max-w-4xl mx-auto mt-6 bg-white">{children}</main> */}
 
       {/* FOOTER */}
-      <footer className="absolute inset-x-0 bottom-0 font-primary mt-[38px] mb-[54px] max-w-3xl mx-auto container">
+      <footer className="font-primary mt-[38px] mb-[54px] max-w-3xl mx-auto mr-64 container">
         <p className="text-black">Terdapat pertanyaan atau kendala ?</p>
         <section className="flex items-center justify-between mt-2">
           <button className="flex space-x-2 justify-center items-center bg-[#008169] rounded-full pl-3 pr-6 py-1 hover:opacity-90 transition-all duration-150 ease-in-out shadow-md shrink-0">
