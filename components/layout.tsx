@@ -7,7 +7,7 @@ type Props = { children: React.ReactNode };
 export default function Layout({ children }: Props): JSX.Element {
   return (
     <div
-      className="relative flex flex-col bg-[url('/images/background-bottomshape.svg')] md:bg-[url('/images/background-bottomshape-invert.svg')] bg-no-repeat min-h-screen mx-auto bg-contain"
+      className="flex flex-col bg-[url('/images/background-bottomshape.svg')] md:bg-[url('/images/background-bottomshape-invert.svg')] bg-no-repeat min-h-screen mx-auto bg-contain"
     >
       <Head>
         <link rel="icon" href="/favicon.ico" />
@@ -17,7 +17,7 @@ export default function Layout({ children }: Props): JSX.Element {
         <title>Kepsek Report</title>
       </Head>
 
-      <div className="container max-w-3xl mx-auto">
+      <div className="container relative max-w-3xl mx-auto">
         <header className="flex items-center justify-around pt-10 lg:pt-16">
           <span className="absolute top-0 right-0 hidden w-24 md:block">
             <Image
@@ -52,18 +52,19 @@ export default function Layout({ children }: Props): JSX.Element {
               <Image src="/images/icon_btn-next_yellow.svg" alt="trophy" width={30} height={30} />
             </div>
           </section>
+        </header>
 
-          <nav className="fixed flex flex-col left-[450px] z-90 inset-y-64">
-            <a href="#home" className="text-xs w-60 -ml-80 p-2 rounded-l-lg bg-white drop-shadow-2xl shadow-2xl text-[#008169]">
+        <section className="relative mx-10 mt-6 sm:mx-auto sm:max-w-lg md:max-w-xl lg:mx-8 lg:max-w-3xl bg-rose-50">
+
+          <nav className="fixed flex flex-col left-[450px] md:left-[500px] lg:left-[600px] z-90 inset-y-40 space-y-0.5">
+            <a href="#home" className="text-xs w-68 -ml-80 p-2 rounded-l-lg bg-white drop-shadow-2xl shadow-2xl text-[#008169]">
               Home
             </a>
-            <a href="#data-digital" className="p-2 text-xs active:bg-white rounded-l-lg shadow-inner bg-[#FAFAFA] text-[#A4A4A4] w-60 -ml-80">
+            <a href="#data-digital" className="p-2 text-xs active:bg-white rounded-l-lg shadow-inner bg-[#FAFAFA] text-[#A4A4A4] w-68 -ml-80">
               Data Digital
             </a>
           </nav>
-        </header>
 
-        <section className="mx-10 mt-6 sm:mx-auto sm:max-w-lg md:max-w-xl lg:mx-8 lg:max-w-3xl bg-rose-50">
           <div className="flex justify-end">
             <main className="w-2/3 p-6 bg-white shadow-xl drop-shadow-xl rounded-2xl">{children}</main>
           </div>
