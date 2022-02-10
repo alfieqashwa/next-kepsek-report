@@ -74,8 +74,8 @@ export default function Layout({ children }: Props): JSX.Element {
         </nav> */}
       </header>
 
-      <section className="relative flex justify-end mx-24 mt-6 bg-rose-100">
-        <main className="max-w-md px-10 bg-white shadow-xl py-14 drop-shadow-xl rounded-2xl">{children}</main>
+      <section className="relative flex justify-end mx-24 mt-6">
+        <main className="max-w-md p-6 bg-white shadow-xl drop-shadow-xl rounded-2xl">{children}</main>
       </section>
 
       {/* FOOTER */}
