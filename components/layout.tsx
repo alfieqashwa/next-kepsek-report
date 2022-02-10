@@ -51,7 +51,7 @@ export default function Layout({ children }: Props): JSX.Element {
             <Image src="/images/icon_btn-next_yellow.svg" alt="trophy" width={30} height={30} />
           </div>
         </section>
-
+        {/* 
         <nav className="fixed flex flex-col left-[450px] z-90 inset-y-64">
           <a href="#home" className="w-60 -ml-60 p-4 rounded-l-2xl bg-white drop-shadow-2xl shadow-2xl text-[#008169]">
             Home
@@ -71,79 +71,26 @@ export default function Layout({ children }: Props): JSX.Element {
           <a href="#sign-out" className="p-4 rounded-l-2xl shadow-inner bg-[#FAFAFA] text-[#A4A4A4] w-60 -ml-60">
             Sign Out
           </a>
-        </nav>
+        </nav> */}
       </header>
 
-      <section className="relative mt-6 bg-white shadow-xl drop-shadow-xl rounded-2xl">
-        <main className="px-10 py-14">
-
-          <section id="home">
-            <h2 className="text-2xl font-semibold text-rose-400">HOME</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          </section>
-          <section id="data-digital">
-            <h2 className="text-2xl font-semibold text-rose-400">Data Digital</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          </section>
-          <section id="keuangan-digital">
-            <h2 className="text-2xl font-semibold text-rose-400">Keuangan Digital</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          </section>
-          <section id="absensi-digital">
-            <h2 className="text-2xl font-semibold text-rose-400">Absensi Digital</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          </section>
-          <section id="toko-pelajar">
-            <h2 className="text-2xl font-semibold text-rose-400">Toko Pelajar</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          </section>
-          <section id="sign-out">
-            <h2 className="text-2xl font-semibold text-rose-400">Sign Out</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          </section>
-        </main>
+      <section className="relative flex justify-end mx-24 mt-6 bg-rose-100">
+        <main className="max-w-md px-10 bg-white shadow-xl py-14 drop-shadow-xl rounded-2xl">{children}</main>
       </section>
 
-      {/* MAIN */}
-      {/* <main className="container max-w-4xl mx-auto mt-6 bg-white">{children}</main> */}
-
       {/* FOOTER */}
-      <footer className="font-primary mt-[38px] mb-[54px] max-w-3xl mx-auto mr-48 container">
-        <p className="text-black">Terdapat pertanyaan atau kendala ?</p>
-        <section className="flex items-center justify-between mt-2">
-          <button className="flex space-x-2 justify-center items-center bg-[#008169] rounded-full pl-3 pr-6 py-1 hover:opacity-90 transition-all duration-150 ease-in-out shadow-md shrink-0">
-            <Image src="/images/img_whatsapp.svg" width={23} height={23} alt="Contact logo" />
-            <p className="text-xs font-bold text-white">Hubungi tim CS Kami</p>
+      <footer className="ml-56 mr-24 my-7 font-primary">
+        <p className="text-xs text-black">Terdapat pertanyaan atau kendala ?</p>
+        <section className="flex items-center justify-between mt-0.5">
+          <button className="flex space-x-2 justify-center items-center bg-[#008169] rounded-full pl-2 pr-4 py-1 hover:opacity-90 transition-all duration-150 ease-in-out shadow-md shrink-0">
+            <span className="w-4 h-4">
+              <Image src="/images/img_whatsapp.svg" width={23} height={23} alt="Contact logo" />
+            </span>
+            <p className="text-xs text-white font-md">Hubungi tim CS Kami</p>
           </button>
-          <div>
+          <span className="w-32">
             <Image src="/images/powered-by-idn.svg" width={208} height={36.06} alt="Contact logo" />
-          </div>
+          </span>
         </section>
       </footer>
     </div>
