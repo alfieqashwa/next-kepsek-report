@@ -17,9 +17,9 @@ export default function Layout({ children }: Props): JSX.Element {
         <title>Kepsek Report</title>
       </Head>
 
-      <div className="container relative max-w-3xl mx-auto">
-        <header className="flex items-center justify-around pt-10 lg:pt-16">
-          <span className="absolute top-0 right-0 hidden w-24 md:block">
+      <div className="container relative max-w-5xl mx-auto">
+        <header className="flex items-center justify-around pt-10 md:pt-16">
+          <span className="absolute top-0 right-0 hidden sm:w-24 md:w-36 md:block">
             <Image
               src="/images/banner-jaringan-idn-white.svg"
               alt="Logo of Jaringan IDN"
@@ -30,23 +30,23 @@ export default function Layout({ children }: Props): JSX.Element {
 
           {/* School Logo */}
           <section className="flex items-center justify-start space-x-2">
-            <span className="w-14 h-14">
+            <span className="md:h-20 w-14 h-14 md:w-20">
               <Image src="/images/image-3.svg" width={100} height={100} alt="logo-school" />
             </span>
             <div className="text-[#F1FFF8] flex flex-col justify-center items-start">
-              <h1 className="font-semibold leading-4 lg:font-bold text-md lg:text-3xl">Laporan Kepala Sekolah</h1>
-              <h3 className="text-sm lg:text-2xl">SMK Bakti Karya Parigi</h3>
+              <h1 className="text-base font-semibold leading-4 md:font-bold md:text-3xl">Laporan Kepala Sekolah</h1>
+              <h3 className="text-sm md:text-2xl">SMK Bakti Karya Parigi</h3>
             </div>
           </section>
 
           {/* Trophy */}
-          <section className="bg-[#FFFFF4] font-primary rounded-lg px-3 lg:px-4 py-1 flex justify-center items-center space-x-3 lg:space-x-6">
+          <section className="bg-[#FFFFF4] font-primary rounded-lg px-3 md:px-4 py-1 flex justify-center items-center space-x-3 md:space-x-6">
             <div className="h-10 w-9">
               <Image src="/images/layer-1.svg" alt="trophy" width={51.25} height={60.85} />
             </div>
             <div>
-              <h4 className="text-xs lg:text-base text-[#F2994A]">Points</h4>
-              <p className="font-bold leading-4 text-md lg:text-3xl text-meteorite">120.000</p>
+              <h4 className="text-xs md:text-base text-[#F2994A]">Points</h4>
+              <p className="font-bold leading-4 text-md md:text-3xl text-meteorite">120.000</p>
             </div>
             <div className="w-4 h-4">
               <Image src="/images/icon_btn-next_yellow.svg" alt="trophy" width={30} height={30} />
@@ -54,19 +54,19 @@ export default function Layout({ children }: Props): JSX.Element {
           </section>
         </header>
 
-        <section className="relative mx-10 mt-6 sm:mx-auto sm:max-w-lg md:max-w-xl lg:mx-8 lg:max-w-3xl bg-rose-50">
+        <section className="relative mt-6 sm:mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-4xl bg-rose-50">
 
-          <nav className="fixed flex flex-col left-[450px] md:left-[500px] lg:left-[600px] z-90 inset-y-40 space-y-0.5">
-            <a href="#home" className="text-xs w-68 -ml-80 p-2 rounded-l-lg bg-white drop-shadow-2xl shadow-2xl text-[#008169]">
+          <nav className="fixed flex flex-col left-[450px] md:left-96 lg:left-[460px] xl:left-[600px] 2xl:left-[720px] z-90 inset-y-40 md:inset-y-52 space-y-0.5">
+            <a href="#home" className="text-xs md:text-base w-96 -ml-80 p-2 rounded-l-lg bg-white drop-shadow-2xl shadow-2xl text-[#008169]">
               Home
             </a>
-            <a href="#data-digital" className="p-2 text-xs active:bg-white rounded-l-lg shadow-inner bg-[#FAFAFA] text-[#A4A4A4] w-68 -ml-80">
+            <a href="#data-digital" className="p-2 text-xs md:text-base active:bg-white rounded-l-lg shadow-inner bg-[#FAFAFA] text-[#A4A4A4] w-68 -ml-80">
               Data Digital
             </a>
           </nav>
 
           <div className="flex justify-end">
-            <main className="w-2/3 p-6 bg-white shadow-xl drop-shadow-xl rounded-2xl">{children}</main>
+            <main className="w-3/4 p-6 bg-white shadow-xl drop-shadow-xl rounded-2xl">{children}</main>
           </div>
         </section>
 
