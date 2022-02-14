@@ -40,7 +40,7 @@ export default function Layout({ children }: Props): JSX.Element {
           </section>
 
           {/* Trophy */}
-          <section className="bg-[#FFFFF4] font-primary rounded-lg px-3 md:px-4 py-1 flex justify-center items-center space-x-2 md:space-x-6">
+          <section className="bg-[#FFFFF4] font-primary rounded-xl px-3 md:px-4 py-1 flex justify-center items-center space-x-2 md:space-x-6">
             <div className="h-10 w-9 md:w-12 md:h-16">
               <Image src="/images/layer-1.svg" alt="trophy" width={51.25} height={60.85} />
             </div>
@@ -78,7 +78,7 @@ export default function Layout({ children }: Props): JSX.Element {
           </nav>
 
           <div className="flex justify-end">
-            <main className="w-3/4 p-6 bg-white shadow-xl md:p-8 drop-shadow-xl rounded-2xl">{children}</main>
+            <main className="w-3/4 p-6 bg-white shadow-xl md:p-8 drop-shadow-xl rounded-2xl font-primary">{children}</main>
           </div>
 
 
