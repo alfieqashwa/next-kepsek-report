@@ -19,7 +19,7 @@ const MulaiPage: NextPage = () => {
             </div>
           </div>
           <div className='flex items-center justify-center'>
-            <span className='w-4/6'>
+            <span className='hidden md:block md:w-4/6'>
               <Image src="/images/data.svg" width={200} height={200} alt="data-digital" />
             </span>
             <div className='py-6 ml-5'>
@@ -56,7 +56,7 @@ const MulaiPage: NextPage = () => {
             </div>
           </div>
           <div className='flex items-center justify-center'>
-            <span className='w-4/6'>
+            <span className='hidden md:block md:w-4/6'>
               <Image src="/images/keuangan.svg" width={200} height={200} alt="keuangan-digital" />
             </span>
             <div className='py-6 ml-5'>
@@ -81,7 +81,7 @@ const MulaiPage: NextPage = () => {
             </div>
           </div>
           <div className='flex items-center justify-center'>
-            <span className='w-4/6'>
+            <span className='hidden md:block md:w-4/6'>
               <Image src="/images/absensi.svg" width={200} height={200} alt="absensi-digital" />
             </span>
             <div className='py-6 ml-5'>
@@ -118,19 +118,19 @@ const MulaiPage: NextPage = () => {
             </div>
           </div>
           <div className='relative flex items-center justify-center'>
-            <span className='w-4/6 grayscale'>
+            <span className='hidden md:block md:w-4/6 grayscale'>
               <Image src="/images/absensi.svg" width={200} height={200} alt="absensi-digital" className="" />
             </span>
-            <span className='absolute inset-8'>
+            <span className='absolute mt-6 md:mt-0 inset:0 md:inset-8'>
               <Image src="/images/lock.svg" width={100} height={100} alt="absensi-digital" />
             </span>
             <div className='relative py-6 ml-5'>
               {/* Progress Bar */}
-              <div className="absolute w-full h-6 bg-white border rounded-full shadow-lg inset-y-24">
-                <div className="h-6 rounded-full bg-gradient-to-r from-green-500 to-green-400" style={{ width: "75%" }}></div>
-                <div className="flex items-center justify-between mt-2">
-                  <p className="text-[#169859] font-bold text-2xl">75%</p>
-                  <p className="text-gray-500">Akan tersedia jika data sudah digital</p>
+              <div className="absolute w-full h-4 bg-white border rounded-full shadow-lg md:h-6 inset-y-24">
+                <div className="h-4 rounded-full md:h-6 bg-gradient-to-r from-green-500 to-green-400" style={{ width: "75%" }}></div>
+                <div className="flex flex-col mt-6 md:mt-2 md:flex-row md:items-center md:justify-between">
+                  <p className="text-[#169859] font-bold text-xl md:text-2xl">75%</p>
+                  <p className="text-sm text-gray-500 md:text-base">Akan tersedia jika data sudah digital</p>
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-gray-400 capitalize">Absensi Digital</h3>
