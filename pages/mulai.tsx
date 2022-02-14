@@ -2,6 +2,7 @@
 import type { NextPage } from 'next'
 import Layout from 'components/layout'
 import Image from 'next/image'
+import { DataDigital } from 'components/data-digital'
 
 const MulaiPage: NextPage = () => {
   return (
@@ -9,7 +10,7 @@ const MulaiPage: NextPage = () => {
 
       <h2 className="text-3xl font-bold text-black capitalize md:text-xl">Progres Digitalisasi</h2>
 
-      <div className="space-y-6" id="home">
+      <div className="pb-6 space-y-6" id="home">
         {/* Data Digital Card */}
         <section className="relative pr-4 mt-4 border shadow rounded-2xl">
           <div className="absolute right-5 top-5">
@@ -157,62 +158,16 @@ const MulaiPage: NextPage = () => {
           </div>
         </section>
       </div>
+      {/* ENDS HOME MENU */}
 
-      <section id="data-digital">
-        <h2 className="text-base font-semibold text-black md:text-xl">Data Digital</h2>
-        <div className='my-4'>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-        </div>
-      </section>
-      <section id="keuangan-digital">
-        <h2 className="text-base font-semibold text-black md:text-xl">Keuangan Digital</h2>
-        <div className='my-4'>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-        </div>
-      </section>
-      <section id="absensi-digital">
-        <h2 className="text-base font-semibold text-black md:text-xl">Absensi Digital</h2>
-        <div className='my-4'>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-        </div>
-      </section>
       <section id="toko-pelajar">
         <h2 className="text-base font-semibold text-black md:text-xl">Toko Pelajar</h2>
-        <div className='my-4'>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-        </div>
+        <p>TODO: ON PROGRESS</p>
       </section>
-      <section id="sign-out">
-        <h2 className="text-base font-semibold text-black md:text-xl">Sign Out</h2>
-        <div className='my-4'>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-          <p className="text-xs md:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, enim totam molestias, quidem eius labore perspiciatis excepturi qui corrupti incidunt cupiditate, nostrum quaerat! Ratione maxime itaque cum obcaecati? Aliquam, tempore.</p>
-        </div>
-      </section>
+
+      {/* STARTS DATA DIGITAL */}
+      <DataDigital />
+      {/* ENDS DATA DIGITAL */}
     </Layout >
   )
 }
