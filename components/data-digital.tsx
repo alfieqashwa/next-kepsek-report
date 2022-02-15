@@ -20,11 +20,11 @@ export const DataDigital = () => (
                 <span>tahap:</span><span className="text-green-600">training</span>
             </h2>
             {/* Tahap-Tahap / Steps */}
-            <div className="my-5 py-8 -ml-[72px] -mr-6 md:-ml-20 md:-mr-8 px-24 bg-rose-100">
-                <section className="flex items-start justify-between">
+            <div className="my-5 py-8 -ml-[72px] -mr-6 md:-ml-20 md:-mr-8 px-24 bg-[#F9FFFF]">
+                <section className="flex items-start justify-around">
                     <div className="flex flex-col items-center">
-                        <button className="bg-[#42AF7A] text-white whitespace-nowrap font-bold text-xs shrink-0 rounded-full py-1.5 px-3">Langkah 1</button>
-                        <span className="relative bg-[#169859] text-center shrink-0 flex justify-center items-center w-14 h-14 rounded-lg mt-8 -rotate-45">
+                        <button className="bg-[#42AF7A] shadow-[#42AF7A]/50 text-white whitespace-nowrap font-bold text-xs shrink-0 rounded-full py-1.5 px-3 shadow-xl">Langkah 1</button>
+                        <span className="relative bg-[#169859] shadow-lg shadow-[#169859]/50 text-center shrink-0 flex justify-center items-center w-14 h-14 rounded-lg mt-8 -rotate-45">
                             <Image src="/images/tilda-icons-group.svg" width={30} height={30} alt="tilda-icons-group" className="text-white rotate-45" />
                         </span>
                         <h4 className="text-sm font-bold text-[#2A2A2A] capitalize mt-6">training</h4>
@@ -36,17 +36,17 @@ export const DataDigital = () => (
                         </span>
                     </div> */}
                     <div className="flex flex-col items-center">
-                        <button className="bg-[#D5EEE2] py-1 px-3 rounded-full text-[#2A2A2A]">2</button>
+                        <button className="bg-[#D5EEE2] py-1.5 px-3 font-bold rounded-full text-sm text-[#2A2A2A]">2</button>
                         <span className="bg-[#D7D7D7] shrink-0 text-center flex justify-center items-center w-10 h-10 rounded-lg -rotate-45 mt-9"></span>
                         <h4 className="text-xs font-bold text-[#A4A4A4] capitalize mt-5">data upload</h4>
                     </div>
                     <div className="flex flex-col items-center">
-                        <button className="bg-[#D5EEE2] py-1 px-3 rounded-full text-[#2A2A2A]">3</button>
+                        <button className="bg-[#D5EEE2] py-1.5 px-3 rounded-full font-bold text-sm text-[#2A2A2A]">3</button>
                         <span className="bg-[#D7D7D7] shrink-0 text-center flex justify-center items-center w-10 h-10 rounded-lg -rotate-45 mt-9"></span>
                         <h4 className="text-xs font-bold text-[#A4A4A4] capitalize mt-5">sosialisasi</h4>
                     </div>
                     <div className="flex flex-col items-center">
-                        <button className="bg-[#D5EEE2] py-1 px-3 rounded-full text-[#2A2A2A]">4</button>
+                        <button className="bg-[#D5EEE2] py-1.5 px-3 rounded-full font-bold text-sm text-[#2A2A2A]">4</button>
                         <span className="bg-[#D7D7D7] shrink-0 text-center flex justify-center items-center w-10 h-10 rounded-lg -rotate-45 mt-9"></span>
                         <h4 className="text-xs font-bold text-[#A4A4A4] capitalize mt-5">aktif</h4>
                     </div>
