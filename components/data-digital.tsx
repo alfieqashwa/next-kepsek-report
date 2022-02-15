@@ -9,7 +9,7 @@ export const DataDigital = () => (
             <div className="w-3/4">
                 <div className="flex items-center justify-between">
                     <h2 className="font-bold text-[#169859] text-2xl capitalize">Data Digital</h2>
-                    <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
+                    <div className="bg-[#FFFFF4] space-x-1 rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
                         <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
                         <p className='text-xs font-bold text-meteorite'>300.000</p>
                     </div>

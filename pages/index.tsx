@@ -23,7 +23,7 @@ const Home: NextPage = () => {
           <div className="lg:w-1/2">
             <Image src="/images/login-kepsek-report.svg" width={659} height={456.08} alt="login kepsek report" />
           </div>
-          <div className="lg:mt-6 lg:w-1/2 font-primary">
+          <div className="lg:mt-6 lg:w-1/2">
             <h1 className="lg:w-5/6 font-extrabold text-3xl lg:text-[40px] text-meteorite lg:leading-[50px]">Selamat bergabung ke dalam Jaringan Lembaga Pendidikan Digital!</h1>
             <p className="mt-6 text-xl lg:text-2xl lg:w-5/6 text-soft-gray">Sebanyak 5630 kepala sekolah dan ketua Yayasan telah memulai perjalanan digitalisasi pendidikan mereka.</p>
             <div className="my-8 lg:my-12">

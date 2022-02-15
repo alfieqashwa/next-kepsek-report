@@ -40,7 +40,7 @@ export default function Layout({ children }: Props): JSX.Element {
           </section>
 
           {/* Trophy */}
-          <section className="bg-[#FFFFF4] shadow-lg shadow-[#FFFFF4]/20 font-primary rounded-xl px-3 lg:px-4 py-1 md:py-2 flex justify-center items-center space-x-2 md:space-x-6">
+          <section className="bg-[#FFFFF4] shadow-lg shadow-[#FFFFF4]/20 rounded-xl px-3 lg:px-4 py-1 md:py-2 flex justify-center items-center space-x-2 md:space-x-6">
             <div className="h-10 w-9 lg:w-12 lg:h-16">
               <Image src="/images/trophy.svg" alt="trophy" width={51.25} height={60.85} />
             </div>
@@ -86,7 +86,7 @@ export default function Layout({ children }: Props): JSX.Element {
 
           {/* FOOTER */}
           <footer className="flex justify-end mb-10 mt-7">
-            <div className="w-3/4 font-primary">
+            <div className="w-3/4">
               <p className="text-xs text-black md:text-base">Terdapat pertanyaan atau kendala ?</p>
               <section className="flex items-center justify-between mt-0.5 md:mt-2">
                 <button className="flex space-x-2 justify-center items-center bg-[#008169] rounded-full pl-2 pr-4 py-1 hover:opacity-90 transition-all duration-150 ease-in-out shadow-md shrink-0">
