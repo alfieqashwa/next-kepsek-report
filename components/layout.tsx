@@ -54,9 +54,7 @@ export default function Layout({ children }: Props): JSX.Element {
           </section>
         </header>
 
-        {/* <section className="relative mx-auto mt-6 md:mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl"> */}
         <section className="relative mx-auto mt-6 md:mt-8 mr:20 sm:ml-20 sm:mr-24 lg:mr-32">
-          {/* <header className="flex items-center justify-between mt-8 md:mt-16 lg:mt-20 mx:16 sm:mx-24 lg:mx-32"> */}
 
           <nav className="fixed flex flex-col left-[400px] md:left-[340px] lg:left-[360px] xl:left-[400px] 2xl:left-[440px] inset-y-36 md:inset-y-48 lg:inset-y-60 space-y-0.5">
             <a href="#home" className="text-xs md:text-base w-96 -ml-80 p-2 md:py-3 md:px-4 rounded-l-lg md:rounded-l-2xl bg-white drop-shadow-2xl shadow-2xl text-[#008169]">
