@@ -4,6 +4,7 @@ import Layout from 'components/layout'
 import Image from 'next/image'
 import { DataDigital } from 'components/data-digital'
 import { KeuanganDigital } from 'components/keuangan-digital'
+import { AbsensiDigital } from 'components/absensi-digital'
 
 const MulaiPage: NextPage = () => {
   return (
@@ -166,13 +167,11 @@ const MulaiPage: NextPage = () => {
         <p>TODO: ON PROGRESS</p>
       </section>
 
-      {/* STARTS DATA DIGITAL */}
+      {/* STARTS CONTENT */}
       <DataDigital />
-      {/* ENDS DATA DIGITAL */}
-
-      {/* STARTS KAUANGAN DIGITAL */}
       <KeuanganDigital />
-      {/* ENDS KEUANGAN DIGITAL */}
+      <AbsensiDigital />
+      {/* ENDS CONTENT */}
     </Layout >
   )
 }
