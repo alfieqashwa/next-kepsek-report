@@ -7,7 +7,7 @@ type Props = { children: React.ReactNode };
 export default function Layout({ children }: Props): JSX.Element {
   return (
     <div
-      className="flex flex-col bg-[url('/images/background-bottomshape.svg')] md:bg-[url('/images/background-bottomshape-invert.svg')] bg-no-repeat min-h-screen mx-auto bg-contain"
+      className="flex flex-col bg-[url('/images/background-bottomshape.svg')] md:bg-[url('/images/background-bottomshape-invert.svg')] bg-no-repeat min-h-screen bg-contain w-full"
     >
       <Head>
         <link rel="icon" href="/favicon.ico" />
@@ -17,8 +17,8 @@ export default function Layout({ children }: Props): JSX.Element {
         <title>Kepsek Report</title>
       </Head>
 
-      <div className="container relative mx-auto">
-        <header className="flex items-center justify-between mt-8 md:mt-16 lg:mt-20 mx:16 md:mx-20 lg:mx-32">
+      <div className="relative">
+        <header className="flex items-center justify-between mt-8 md:mt-16 lg:mt-20 mx:16 sm:mx-24 lg:mx-32">
           <span className="absolute top-0 right-0 hidden sm:w-24 md:w-36 md:block">
             <Image
               src="/images/banner-jaringan-idn-white.svg"
@@ -54,9 +54,11 @@ export default function Layout({ children }: Props): JSX.Element {
           </section>
         </header>
 
-        <section className="relative mt-6 md:mt-8 sm:mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-4xl">
+        {/* <section className="relative mx-auto mt-6 md:mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl"> */}
+        <section className="relative mx-auto mt-6 md:mt-8 mr:20 sm:ml-20 sm:mr-24 lg:mr-32">
+          {/* <header className="flex items-center justify-between mt-8 md:mt-16 lg:mt-20 mx:16 sm:mx-24 lg:mx-32"> */}
 
-          <nav className="fixed flex flex-col left-[400px] md:left-[340px] lg:left-[420px] xl:left-[550px] 2xl:left-[660px] z-90 inset-y-40 md:inset-y-52 space-y-0.5">
+          <nav className="fixed flex flex-col left-[400px] md:left-[340px] lg:left-[360px] xl:left-[400px] 2xl:left-[440px] inset-y-36 md:inset-y-48 lg:inset-y-60 space-y-0.5">
             <a href="#home" className="text-xs md:text-base w-96 -ml-80 p-2 md:py-3 md:px-4 rounded-l-lg md:rounded-l-2xl bg-white drop-shadow-2xl shadow-2xl text-[#008169]">
               Home
             </a>
@@ -78,7 +80,7 @@ export default function Layout({ children }: Props): JSX.Element {
           </nav>
 
           <div className="flex justify-end">
-            <main className="w-3/4 p-6 bg-white shadow-xl md:p-8 drop-shadow-xl rounded-2xl font-primary">{children}</main>
+            <main className="w-5/6 p-6 bg-white shadow-xl md:p-8 drop-shadow-xl rounded-2xl font-primary">{children}</main>
           </div>
 
 
