@@ -39,7 +39,7 @@ const MulaiPage: NextPage = () => {
                 <span className='px-0.5'>
                   <Image src="/images/arrow.svg" width={25} height={10} alt="arrow" />
                 </span>
-                <button className="text-[#A4A4A4] bg-[#EBF0EE] px-3 py-1.5 rounded-full text-xs whitespace-nowrap capitalize">Aktif</button>
+                <button className="text-[#A4A4A4] bg-[#EBF0EE] px-3 py-1 rounded-full text-xs whitespace-nowrap capitalize">Aktif</button>
               </div>
             </div>
             <span>
@@ -64,7 +64,7 @@ const MulaiPage: NextPage = () => {
               <h3 className="text-[#169859] font-bold text-2xl capitalize">Keuangan Digital</h3>
               <p className='mt-2 text-xs text-meteorite'>Anda sudah ada di Stage Sosialisasi, segera jadwalkan Wali Kelas Anda untuk mengikuti sosialisasi. Keberhasilan digitalisasi juga berasal dari peran aktif Wali Kelas.</p>
               <div className='flex flex-row items-center mt-6'>
-                <button className="text-white bg-[#169859] text-xs font-bold py-3 px-5 rounded-full capitalize">mulai program</button>
+                <button className="text-white bg-[#169859] text-xs font-bold py-2 px-5 rounded-full capitalize">mulai program</button>
               </div>
             </div>
             <span>
@@ -97,11 +97,11 @@ const MulaiPage: NextPage = () => {
                 <span className='px-0.5'>
                   <Image src="/images/arrow.svg" width={25} height={10} alt="arrow" />
                 </span>
-                <button className="bg-[#169859] text-white px-3 py-1.5 rounded-full text-xs whitespace-nowrap capitalize">implementasi</button>
+                <button className="bg-[#D5EEE2] text-[#169859] px-3 py-1.5 rounded-full text-xs whitespace-nowrap capitalize">implementasi</button>
                 <span className='px-0.5'>
                   <Image src="/images/arrow.svg" width={25} height={10} alt="arrow" />
                 </span>
-                <button className="text-white bg-[#2D9CDB] px-3 py-1.5 rounded-full text-xs whitespace-nowrap capitalize">aktif</button>
+                <button className="text-white bg-[#2D9CDB] px-3 py-1 rounded-full text-xs whitespace-nowrap capitalize">aktif</button>
               </div>
             </div>
             <span>

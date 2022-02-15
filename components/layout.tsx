@@ -18,7 +18,7 @@ export default function Layout({ children }: Props): JSX.Element {
       </Head>
 
       <div className="relative">
-        <header className="flex items-center justify-between mt-8 md:mt-16 lg:mt-20 mx:16 sm:mx-24 lg:mx-32">
+        <header className="flex items-center justify-between mt-8 md:mt-16 lg:mt-16 mx:16 sm:mx-24 lg:mx-32">
           <span className="absolute top-0 right-0 hidden sm:w-24 md:w-36 md:block">
             <Image
               src="/images/banner-jaringan-idn-white.svg"
