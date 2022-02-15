@@ -9,8 +9,8 @@ export const KeuanganDigital = () => (
             <div className="w-3/4">
                 <div className="flex items-center justify-between">
                     <h2 className="font-bold text-[#169859] text-2xl capitalize">Keuangan Digital</h2>
-                    <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-items-center items-center py-1 px-2.5 border border-[#FFE4CC]">
-                        <Image src="/images/layer-1.svg" alt="trophy" width={20} height={20} />
+                    <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
+                        <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
                         <p className='text-xs font-bold text-meteorite'>300.000</p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ export const KeuanganDigital = () => (
                     <p className="mt-1 capitalize text-[#2A2A2A] text-sm">Menjadwalkan Training Staff Keuangan / Bendahara</p>
                 </div>
                 <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-xl shadow flex justify-center items-center py-1.5 px-4 border border-[#FFE4CC]">
-                    <Image src="/images/layer-1.svg" alt="trophy" width={20} height={20} />
+                    <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
                     <p className='text-xs font-bold whitespace-nowrap text-meteorite'>300.000</p>
                 </div>
             </div>

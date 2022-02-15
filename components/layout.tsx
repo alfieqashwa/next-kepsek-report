@@ -42,7 +42,7 @@ export default function Layout({ children }: Props): JSX.Element {
           {/* Trophy */}
           <section className="bg-[#FFFFF4] shadow-lg shadow-[#FFFFF4]/20 font-primary rounded-xl px-3 lg:px-4 py-1 md:py-2 flex justify-center items-center space-x-2 md:space-x-6">
             <div className="h-10 w-9 lg:w-12 lg:h-16">
-              <Image src="/images/layer-1.svg" alt="trophy" width={51.25} height={60.85} />
+              <Image src="/images/trophy.svg" alt="trophy" width={51.25} height={60.85} />
             </div>
             <div>
               <h4 className="text-xs lg:text-base leading-4 lg:leading-3 text-[#F2994A]">Points</h4>
@@ -74,7 +74,7 @@ export default function Layout({ children }: Props): JSX.Element {
             <a href="#toko-pelajar" className="p-2 md:px-4 md:py-3 text-xs md:text-base active:bg-white rounded-l-lg md:rounded-l-2xl shadow-lg bg-[#FAFAFA] text-[#A4A4A4] w-96 -ml-80">
               Toko Pelajar
             </a>
-            <a href="#sign-out" className="p-2 md:px-4 md:py-3 text-xs md:text-base active:bg-white rounded-l-lg md:rounded-l-2xl shadow-lg bg-[#FAFAFA] text-[#A4A4A4] w-96 -ml-80">
+            <a href="#sign-out" className="p-2 md:px-4 md:py-3 text-xs md:text-base active:bg-white rounded-l-lg md:rounded-l-2xl shadow-lg bg-[#FFF8F8] text-[#A4A4A4] w-96 -ml-80">
               Sign Out
             </a>
           </nav>

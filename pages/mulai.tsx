@@ -15,8 +15,8 @@ const MulaiPage: NextPage = () => {
         {/* Data Digital Card */}
         <section className="relative pr-4 mt-4 border shadow rounded-2xl">
           <div className="absolute right-5 top-5">
-            <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-items-center items-center py-1 px-2.5 border border-[#FFE4CC]">
-              <Image src="/images/layer-1.svg" alt="trophy" width={20} height={20} />
+            <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
+              <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
               <p className='text-xs font-bold text-meteorite'>120.000</p>
             </div>
           </div>
@@ -52,8 +52,8 @@ const MulaiPage: NextPage = () => {
         {/* Keuangan Digital Card */}
         <section className="relative pr-4 mt-4 border shadow rounded-2xl">
           <div className="absolute right-5 top-5">
-            <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-items-center items-center py-1 px-2.5 border border-[#FFE4CC]">
-              <Image src="/images/layer-1.svg" alt="trophy" width={20} height={20} />
+            <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
+              <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
               <p className='text-xs font-bold text-meteorite'>2.500.000</p>
             </div>
           </div>
@@ -77,8 +77,8 @@ const MulaiPage: NextPage = () => {
         {/* Absensi Digital Card */}
         <section className="relative pr-4 mt-4 border shadow rounded-2xl">
           <div className="absolute right-5 top-5">
-            <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-items-center items-center py-1 px-2.5 border border-[#FFE4CC]">
-              <Image src="/images/layer-1.svg" alt="trophy" width={20} height={20} />
+            <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
+              <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
               <p className='text-xs font-bold text-meteorite'>completed</p>
             </div>
           </div>
@@ -114,8 +114,8 @@ const MulaiPage: NextPage = () => {
         {/* DISABLED Absensi Digital Card -- Example */}
         <section className="relative pr-4 mt-4 border shadow rounded-2xl bg-gray-50">
           <div className="absolute right-5 top-5">
-            <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-items-center items-center py-1 px-2.5 border border-[#FFE4CC]">
-              <Image src="/images/layer-1.svg" alt="trophy" width={20} height={20} />
+            <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
+              <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
               <p className='text-xs font-bold text-meteorite'>600.000</p>
             </div>
           </div>
