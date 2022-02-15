@@ -94,7 +94,7 @@ export default function Layout({ children }: Props): JSX.Element {
                     <Image src="/images/img_whatsapp.svg" width={23} height={23} alt="Contact logo" />
                   </span>
                   <p className="text-xs text-white md:text-sm font-md">Hubungi tim CS Kami</p>
-                </button>
+                </button>#FAFAFA
                 <span className="w-32 md:w-60">
                   <Image src="/images/powered-by-idn.svg" width={208} height={36.06} alt="Contact logo" />
                 </span>
