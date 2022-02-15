@@ -7,8 +7,14 @@ export const DataDigital = () => (
                 <Image src="/images/data.svg" width={200} height={200} alt="data-digital" className="object-cover" />
             </span>
             <div className="w-3/4">
-                <h2 className="font-bold text-[#169859] text-2xl capitalize">Data Digital</h2>
-                <div className="mt-2 space-y-2 text-xs">
+                <div className="flex items-center justify-between">
+                    <h2 className="font-bold text-[#169859] text-2xl capitalize">Data Digital</h2>
+                    <div className="bg-[#FFFFF4] space-x-1 font-primary rounded-lg shadow flex justify-items-center items-center py-1 px-2.5 border border-[#FFE4CC]">
+                        <Image src="/images/layer-1.svg" alt="trophy" width={20} height={20} />
+                        <p className='text-xs font-bold text-meteorite'>300.000</p>
+                    </div>
+                </div>
+                <div className="mt-4 space-y-2 text-xs">
                     <p>Digitalisasikan sekolahmu bersama Jaringan IDN dimulai dari PorDi (Portal Digital). PorDi adalah platform digitalisasi data lembaga pendidikan mulai dari data Siswa / Santri, Staff, hingga Lembaga Pendidikan. Sudah mendukung format data dari Pemerintah seperti EMIS & DAPODIK, sehingga memudahkan Lembaga Pendidikan untuk pelaporan dan penginputan. Serta menjadi gerbang dari langkah-langkah besar dalam proses digitalisasi Lembaga Pendidikan.</p>
                     <p>Ayo, segera mulai perjalanan digitalmu untuk menikmati berbagai fitur-fitur lainnya.</p>
                 </div>

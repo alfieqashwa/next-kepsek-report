@@ -40,7 +40,7 @@ export default function Layout({ children }: Props): JSX.Element {
           </section>
 
           {/* Trophy */}
-          <section className="bg-[#FFFFF4] font-primary rounded-xl px-3 lg:px-4 py-1 md:py-2 flex justify-center items-center space-x-2 md:space-x-6">
+          <section className="bg-[#FFFFF4] shadow-lg shadow-[#FFFFF4]/20 font-primary rounded-xl px-3 lg:px-4 py-1 md:py-2 flex justify-center items-center space-x-2 md:space-x-6">
             <div className="h-10 w-9 lg:w-12 lg:h-16">
               <Image src="/images/layer-1.svg" alt="trophy" width={51.25} height={60.85} />
             </div>

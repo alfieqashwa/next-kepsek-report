@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 import Layout from 'components/layout'
 import Image from 'next/image'
 import { DataDigital } from 'components/data-digital'
+import { KeuanganDigital } from 'components/keuangan-digital'
 
 const MulaiPage: NextPage = () => {
   return (
@@ -168,6 +169,10 @@ const MulaiPage: NextPage = () => {
       {/* STARTS DATA DIGITAL */}
       <DataDigital />
       {/* ENDS DATA DIGITAL */}
+
+      {/* STARTS KAUANGAN DIGITAL */}
+      <KeuanganDigital />
+      {/* ENDS KEUANGAN DIGITAL */}
     </Layout >
   )
 }
