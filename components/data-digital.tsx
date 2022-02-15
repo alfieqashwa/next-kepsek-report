@@ -19,33 +19,38 @@ export const DataDigital = () => (
             <h2 className="space-x-2 text-2xl font-bold capitalize mt-9">
                 <span>tahap:</span><span className="text-green-600">training</span>
             </h2>
-            <div className="my-5 py-8 -ml-[88px] -mr-6 md:-ml-20 md:-mr-8 px-24 bg-[#F9FFFF]">
-                <div className="flex items-center text-xs">
-                    <button className="bg-[#42AF7A] text-white whitespace-nowrap rounded-full py-1.5 px-4">Langkah 1</button>
-                    <hr className="bg-[#D5EEE2] w-32 border"></hr>
-                    <button className="bg-[#D5EEE2] py-2 px-3  rounded-full text-[#2A2A2A]">2</button>
-                    <hr className="bg-[#D5EEE2] w-32 border"></hr>
-                    <button className="bg-[#D5EEE2] py-2 px-3  rounded-full text-[#2A2A2A]">3</button>
-                    <hr className="bg-[#D5EEE2] w-32 h-0.5 border"></hr>
-                    <button className="bg-[#D5EEE2] py-2 px-3  rounded-full text-[#2A2A2A]">4</button>
-                </div>
-                <div className="flex items-center pl-12 mt-8 -mx-8">
-                    <span className="bg-[#169859] p-4 text-center flex justify-center items-center w-16 h-16 rounded-lg -rotate-45">
-                        <Image src="/images/tilda-icons-group.svg" width={90} height={90} alt="tilda-icons-group" className="text-white rotate-45" />
-                    </span>
-                    <span className="px-6">
-                        <Image src="/images/arrow-with-0.svg" width={50} height={50} alt="tilda-icons-group" />
-                    </span>
-                    <div className="bg-[#D7D7D7] text-center flex justify-center items-center w-12 h-12 rounded-lg -rotate-45"></div>
-                    <span className="px-4">
-                        <Image src="/images/arrow-with-0.svg" width={50} height={50} alt="tilda-icons-group" />
-                    </span>
-                    <div className="bg-[#D7D7D7] text-center flex justify-center items-center w-12 h-12 rounded-lg -rotate-45"> </div>
-                    <span className="px-4">
-                        <Image src="/images/arrow-with-0.svg" width={50} height={50} alt="tilda-icons-group" />
-                    </span>
-                    <div className="bg-[#D7D7D7] text-center flex justify-center items-center w-12 h-12 rounded-lg -rotate-45"> </div>
-                </div>
+            {/* Tahap-Tahap / Steps */}
+            <div className="my-5 py-8 -ml-[72px] -mr-6 md:-ml-20 md:-mr-8 px-24 bg-rose-100">
+                <section className="flex items-start justify-between">
+                    <div className="flex flex-col items-center">
+                        <button className="bg-[#42AF7A] text-white whitespace-nowrap font-bold text-xs shrink-0 rounded-full py-1.5 px-3">Langkah 1</button>
+                        <span className="relative bg-[#169859] text-center shrink-0 flex justify-center items-center w-14 h-14 rounded-lg mt-8 -rotate-45">
+                            <Image src="/images/tilda-icons-group.svg" width={30} height={30} alt="tilda-icons-group" className="text-white rotate-45" />
+                        </span>
+                        <h4 className="text-sm font-bold text-[#2A2A2A] capitalize mt-6">training</h4>
+                    </div>
+                    {/* <div className="flex flex-col items-center space-y-10">
+                        <hr className="bg-[#D5EEE2] w-20 border"></hr>
+                        <span className="">
+                            <Image src="/images/arrow-with-0.svg" width={60} height={60} alt="tilda-icons-group" />
+                        </span>
+                    </div> */}
+                    <div className="flex flex-col items-center">
+                        <button className="bg-[#D5EEE2] py-1 px-3 rounded-full text-[#2A2A2A]">2</button>
+                        <span className="bg-[#D7D7D7] shrink-0 text-center flex justify-center items-center w-10 h-10 rounded-lg -rotate-45 mt-9"></span>
+                        <h4 className="text-xs font-bold text-[#A4A4A4] capitalize mt-5">data upload</h4>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <button className="bg-[#D5EEE2] py-1 px-3 rounded-full text-[#2A2A2A]">3</button>
+                        <span className="bg-[#D7D7D7] shrink-0 text-center flex justify-center items-center w-10 h-10 rounded-lg -rotate-45 mt-9"></span>
+                        <h4 className="text-xs font-bold text-[#A4A4A4] capitalize mt-5">sosialisasi</h4>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <button className="bg-[#D5EEE2] py-1 px-3 rounded-full text-[#2A2A2A]">4</button>
+                        <span className="bg-[#D7D7D7] shrink-0 text-center flex justify-center items-center w-10 h-10 rounded-lg -rotate-45 mt-9"></span>
+                        <h4 className="text-xs font-bold text-[#A4A4A4] capitalize mt-5">aktif</h4>
+                    </div>
+                </section>
             </div>
             <div className="pr-10 leading-5">
                 <p>Sekolah Anda sudah berada di Langkah Pertama digitalisasi. Pastikan Anda merangkul seluruh tim Anda untuk bergerak dan terlatih dalam program ini. Kesuksesan sebuah program hanya bisa terwujud jika seluruh organisasi bergerak menuju perubahan. Segera jadwalkan tim Anda (Staff TU / Operator) untuk menghadiri training PorDi (Portal Digital). Selamat berjuang.</p>
