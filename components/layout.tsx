@@ -17,8 +17,8 @@ export default function Layout({ children }: Props): JSX.Element {
         <title>Kepsek Report</title>
       </Head>
 
-      <div className="container relative mx-auto max-w-7xl">
-        <header className="flex items-center justify-around pt-10 md:pt-16">
+      <div className="container relative mx-auto">
+        <header className="flex items-center justify-between mt-8 md:mt-16 lg:mt-20 mx:16 md:mx-20 lg:mx-32">
           <span className="absolute top-0 right-0 hidden sm:w-24 md:w-36 md:block">
             <Image
               src="/images/banner-jaringan-idn-white.svg"
@@ -30,23 +30,23 @@ export default function Layout({ children }: Props): JSX.Element {
 
           {/* School Logo */}
           <section className="flex items-center justify-start space-x-2">
-            <span className="md:h-20 w-14 h-14 md:w-24">
+            <span className="lg:h-20 w-14 h-14 lg:w-24">
               <Image src="/images/image-3.svg" width={100} height={100} alt="logo-school" />
             </span>
             <div className="text-[#F1FFF8] flex flex-col justify-center items-start">
-              <h1 className="text-base font-semibold leading-4 md:font-bold md:text-3xl">Laporan Kepala Sekolah</h1>
-              <h3 className="text-sm md:text-2xl">SMK Bakti Karya Parigi</h3>
+              <h1 className="text-base font-semibold leading-4 md:leading-6 lg:font-bold md:text-lg lg:text-3xl whitespace-nowrap">Laporan Kepala Sekolah</h1>
+              <h3 className="text-sm lg:text-2xl">SMK Bakti Karya Parigi</h3>
             </div>
           </section>
 
           {/* Trophy */}
-          <section className="bg-[#FFFFF4] font-primary rounded-xl px-3 md:px-4 py-1 flex justify-center items-center space-x-2 md:space-x-6">
-            <div className="h-10 w-9 md:w-12 md:h-16">
+          <section className="bg-[#FFFFF4] font-primary rounded-xl px-3 lg:px-4 py-1 md:py-2 flex justify-center items-center space-x-2 md:space-x-6">
+            <div className="h-10 w-9 lg:w-12 lg:h-16">
               <Image src="/images/layer-1.svg" alt="trophy" width={51.25} height={60.85} />
             </div>
             <div>
-              <h4 className="text-xs md:text-base leading-4 md:leading-3 text-[#F2994A]">Points</h4>
-              <p className="font-bold leading-4 text-md md:text-2xl text-meteorite">120.000</p>
+              <h4 className="text-xs lg:text-base leading-4 lg:leading-3 text-[#F2994A]">Points</h4>
+              <p className="font-bold leading-4 text-md lg:text-2xl text-meteorite">120.000</p>
             </div>
             <div className="w-4 h-4 md:w-6 md:h-6">
               <Image src="/images/icon_btn-next_yellow.svg" alt="trophy" width={30} height={30} />
