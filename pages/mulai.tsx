@@ -18,7 +18,7 @@ const MulaiPage: NextPage = () => {
           <div className="absolute right-5 top-5">
             <div className="bg-[#FFFFF4] space-x-1 rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
               <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
-              <p className='text-xs font-bold text-meteorite'>120.000</p>
+              <p className='text-xs font-bold text-[#2A2A2A]'>120.000</p>
             </div>
           </div>
           <div className='flex items-center justify-center'>
@@ -27,7 +27,7 @@ const MulaiPage: NextPage = () => {
             </span>
             <div className='py-6 ml-5'>
               <h3 className="text-[#169859] font-bold text-2xl capitalize">Data Digital</h3>
-              <p className='mt-2 text-xs text-meteorite'>Anda sudah ada di Stage Sosialisasi, segera jadwalkan Wali Kelas Anda untuk mengikuti sosialisasi. Keberhasilan digitalisasi juga berasal dari peran aktif Wali Kelas.</p>
+              <p className='mt-2 text-xs text-[#2A2A2A]'>Anda sudah ada di Stage Sosialisasi, segera jadwalkan Wali Kelas Anda untuk mengikuti sosialisasi. Keberhasilan digitalisasi juga berasal dari peran aktif Wali Kelas.</p>
               <div className='flex flex-row items-center mt-6'>
                 <button className="bg-[#D5EEE2] text-[#169859] px-3 py-1.5 rounded-full text-xs whitespace-nowrap capitalize">Training</button>
                 <span className='px-0.5'>
@@ -55,7 +55,7 @@ const MulaiPage: NextPage = () => {
           <div className="absolute right-5 top-5">
             <div className="bg-[#FFFFF4] space-x-1 rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
               <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
-              <p className='text-xs font-bold text-meteorite'>2.500.000</p>
+              <p className='text-xs font-bold text-[#2A2A2A]'>2.500.000</p>
             </div>
           </div>
           <div className='flex items-center justify-center'>
@@ -64,7 +64,7 @@ const MulaiPage: NextPage = () => {
             </span>
             <div className='py-6 ml-5'>
               <h3 className="text-[#169859] font-bold text-2xl capitalize">Keuangan Digital</h3>
-              <p className='mt-2 text-xs text-meteorite'>Anda sudah ada di Stage Sosialisasi, segera jadwalkan Wali Kelas Anda untuk mengikuti sosialisasi. Keberhasilan digitalisasi juga berasal dari peran aktif Wali Kelas.</p>
+              <p className='mt-2 text-xs text-[#2A2A2A]'>Anda sudah ada di Stage Sosialisasi, segera jadwalkan Wali Kelas Anda untuk mengikuti sosialisasi. Keberhasilan digitalisasi juga berasal dari peran aktif Wali Kelas.</p>
               <div className='flex flex-row items-center mt-6'>
                 <button className="text-white bg-[#169859] text-xs font-bold py-2 px-5 rounded-full capitalize">mulai program</button>
               </div>
@@ -80,7 +80,7 @@ const MulaiPage: NextPage = () => {
           <div className="absolute right-5 top-5">
             <div className="bg-[#FFFFF4] space-x-1 rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
               <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
-              <p className='text-xs font-bold text-meteorite'>completed</p>
+              <p className='text-xs font-bold text-[#2A2A2A]'>completed</p>
             </div>
           </div>
           <div className='flex items-center justify-center'>
@@ -89,7 +89,7 @@ const MulaiPage: NextPage = () => {
             </span>
             <div className='py-6 ml-5'>
               <h3 className="text-[#169859] font-bold text-2xl capitalize">Absensi Digital</h3>
-              <p className='mt-2 text-xs text-meteorite'>Anda sudah ada di Stage Sosialisasi, segera jadwalkan Wali Kelas Anda untuk mengikuti sosialisasi. Keberhasilan digitalisasi juga berasal dari peran aktif Wali Kelas</p>
+              <p className='mt-2 text-xs text-[#2A2A2A]'>Anda sudah ada di Stage Sosialisasi, segera jadwalkan Wali Kelas Anda untuk mengikuti sosialisasi. Keberhasilan digitalisasi juga berasal dari peran aktif Wali Kelas</p>
               <div className='flex flex-row items-center mt-6'>
                 <button className="bg-[#D5EEE2] text-[#169859] px-3 py-1.5 rounded-full text-xs whitespace-nowrap capitalize">persiapan</button>
                 <span className='px-0.5'>
@@ -117,7 +117,7 @@ const MulaiPage: NextPage = () => {
           <div className="absolute right-5 top-5">
             <div className="bg-[#FFFFF4] space-x-1 rounded-lg shadow flex justify-center items-center py-1 px-2.5 border border-[#FFE4CC]">
               <Image src="/images/trophy.svg" alt="trophy" width={20} height={20} />
-              <p className='text-xs font-bold text-meteorite'>600.000</p>
+              <p className='text-xs font-bold text-[#2A2A2A]'>600.000</p>
             </div>
           </div>
           <div className='relative flex items-center justify-center'>
@@ -137,7 +137,7 @@ const MulaiPage: NextPage = () => {
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-gray-400 capitalize">Absensi Digital</h3>
-              <p className='mt-2 text-xs text-meteorite blur'>Anda sudah ada di Stage Sosialisasi, segera jadwalkan Wali Kelas Anda untuk mengikuti sosialisasi. Keberhasilan digitalisasi juga berasal dari peran aktif Wali Kelas</p>
+              <p className='mt-2 text-xs text-[#2A2A2A] blur'>Anda sudah ada di Stage Sosialisasi, segera jadwalkan Wali Kelas Anda untuk mengikuti sosialisasi. Keberhasilan digitalisasi juga berasal dari peran aktif Wali Kelas</p>
               <div className='flex flex-row items-center invisible mt-6'>
                 <button className="bg-[#D5EEE2] text-[#169859] px-3 py-1.5 rounded-full text-xs whitespace-nowrap capitalize">persiapan</button>
                 <span className='px-0.5'>

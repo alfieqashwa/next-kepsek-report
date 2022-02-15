@@ -24,8 +24,8 @@ const Home: NextPage = () => {
             <Image src="/images/login-kepsek-report.svg" width={659} height={456.08} alt="login kepsek report" />
           </div>
           <div className="lg:mt-6 lg:w-1/2">
-            <h1 className="lg:w-5/6 font-extrabold text-3xl lg:text-[40px] text-meteorite lg:leading-[50px]">Selamat bergabung ke dalam Jaringan Lembaga Pendidikan Digital!</h1>
-            <p className="mt-6 text-xl lg:text-2xl lg:w-5/6 text-soft-gray">Sebanyak 5630 kepala sekolah dan ketua Yayasan telah memulai perjalanan digitalisasi pendidikan mereka.</p>
+            <h1 className="lg:w-5/6 font-extrabold text-3xl lg:text-[40px] text-[#2A2A2A] lg:leading-[50px]">Selamat bergabung ke dalam Jaringan Lembaga Pendidikan Digital!</h1>
+            <p className="mt-6 text-xl lg:text-2xl lg:w-5/6 text-[#707070]">Sebanyak 5630 kepala sekolah dan ketua Yayasan telah memulai perjalanan digitalisasi pendidikan mereka.</p>
             <div className="my-8 lg:my-12">
               <button className="bg-[#007DC4] shadow-lg shadow-[#007DC4]/40 hover:bg-opacity-90 transition-all duration-300 ease-in-out py-4 px-6 rounded-full">
                 <h4 className="text-xl font-bold text-slate-50">Login Sekarang</h4>

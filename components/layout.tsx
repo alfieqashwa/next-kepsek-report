@@ -46,7 +46,7 @@ export default function Layout({ children }: Props): JSX.Element {
             </div>
             <div>
               <h4 className="text-xs lg:text-base leading-4 lg:leading-3 text-[#F2994A]">Points</h4>
-              <p className="font-bold leading-4 text-md lg:text-2xl text-meteorite">120.000</p>
+              <p className="font-bold leading-4 text-md lg:text-2xl text-[#2A2A2A]">120.000</p>
             </div>
             <div className="w-4 h-4 md:w-6 md:h-6">
               <Image src="/images/icon_btn-next_yellow.svg" alt="trophy" width={30} height={30} />
